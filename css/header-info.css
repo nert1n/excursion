@@ -1,0 +1,61 @@
+.info__holder {
+  display: block;
+  color: #fff;
+  font-family: Squad, sans-serif;
+  max-width: 670px;
+  margin-top: 120px;
+}
+.info__holder .info__excurtion {
+  font-weight: 600;
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1560));
+  width: max-content;
+  background-color: rgba(255, 255, 255, 0.21);
+  padding: 6px 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.info__holder h1 {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 400;
+  font-size: calc(31px + 29 * ((100vw - 320px) / 1560));
+  margin-bottom: 10px;
+}
+.info__holder h2 {
+  font-weight: 400;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1560));
+  margin-top: 20px;
+}
+
+.elipse {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 40px;
+  height: 9px;
+  margin-top: 50px;
+}
+.elipse span {
+  position: absolute;
+  background: #E25C45;
+  border: 0.1875em solid rgba(226, 92, 69, 0);
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  right: 15px;
+}
+.elipse::before, .elipse::after {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5960784314);
+  border: 0.1875em solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+}
+.elipse::before {
+  left: 0;
+}
+.elipse::after {
+  right: 0;
+}

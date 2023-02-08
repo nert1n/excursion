@@ -1,0 +1,27 @@
+@import url(/css/base/fonts.css);
+@import url(/css/base/nule.css);
+@import url(/css/base/itc-slider.css);
+@import url(/css/header.css);
+@import url(/css/header-info.css);
+@import url(/css/excursions.css);
+@import url(/css/about.css);
+@import url(/css/product.css);
+@import url(/css/contacts.css);
+@import url(/css/footer.css);
+body {
+  background-image: url(/img/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  overflow-x: hidden;
+  min-height: 708px;
+  max-height: 888px;
+  font-family: "Squad";
+  margin-top: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
